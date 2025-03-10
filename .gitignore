@@ -1,1 +1,8 @@
+# Visual Studio 관련 파일 및 폴더 무시
 .vs/
+*.user
+*.suo
+*.pdb
+*.cache
+*.obj
+*.exe
