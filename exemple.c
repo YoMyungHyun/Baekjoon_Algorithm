@@ -1,17 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main()
+int main(void)
 {
-	int A, B;
+	char A[51];
 
-	scanf("%d %d", &A, &B);
-
-	printf("%d\n", A + B);
-	printf("%d\n", A - B);
-	printf("%d\n", A * B);
-	printf("%d\n", A / B);
-	printf("%d\n", A % B);
-
+	scanf("%s", &A);
+	printf("%s??!", A);
+	
 	return 0;
 }
