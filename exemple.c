@@ -3,11 +3,10 @@
 
 int main(void)
 {
-	char A[51];
+	int a;
 
-	scanf("%s", &A);
-	printf("%s??!", A);
-	
+	scanf("%d", &a);
+	printf("%d", a - 543);
 	return 0;
 
 }
