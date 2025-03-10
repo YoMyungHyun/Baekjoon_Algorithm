@@ -6,8 +6,12 @@ int main()
 	int A, B;
 
 	scanf("%d %d", &A, &B);
-	double C = (double)A / B;
-	printf("%f", C);
+
+	printf("%d\n", A + B);
+	printf("%d\n", A - B);
+	printf("%d\n", A * B);
+	printf("%d\n", A / B);
+	printf("%d\n", A % B);
 
 	return 0;
 }

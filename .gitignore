@@ -1,8 +1,21 @@
-# Visual Studio 관련 파일 및 폴더 무시
+# Visual Studio 관련
 .vs/
-*.user
 *.suo
-*.pdb
-*.cache
+*.user
+*.VC.db
+*.opendb
+
+# 빌드 산출물
 *.obj
 *.exe
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.dll
+*.cache
+*.ipch
+
+# 특정 폴더 무시
+x64/
+Debug/
