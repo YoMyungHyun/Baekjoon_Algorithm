@@ -1,0 +1,26 @@
+diff a/Algorithm.c b/Algorithm.c	(rejected hunks)
+@@ -1,13 +1,17 @@
+ #define _CRT_SECURE_NO_WARNINGS
+ #include <stdio.h>
+ 
++
+ int main(void) {
+ 
+-	int n;
+-	scanf("%d", &n);
+-	for (int i = 1; i < 10; i++) {
+-		printf("%d * %d = %d\n", n, i, n * i);
+-	}
++    int Year;
+ 
+-	return 0;
++    scanf("%d", &Year);
++    if (Year % 4 == 0 && Year % 100 != 0 || Year % 400 == 0) {
++        printf("1");
++    }
++    else {
++        printf("0");
++    }
++    return 0;
+ }
+\ No newline at end of file
