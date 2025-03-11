@@ -3,11 +3,20 @@
 
 int main(void) {
 
-	int n;
-	scanf("%d", &n);
-	for (int i = 1; i < 10; i++) {
-		printf("%d * %d = %d\n", n, i, n * i);
-	}
+	int a;
+	int b;
+	
+	scanf("%d", &a);
+	scanf("%d", &b);
+
+	int c = b % 10;
+	int d = (b % 100) / 10;
+	int e = b / 100;
+
+	printf("%d\n", (a * c));
+	printf("%d\n", (a * d));
+	printf("%d\n", (a * e));
+	printf("%d\n", (a * c) + ((a * d) * 10) + ((a * e) * 100));
 
 	return 0;
 }
