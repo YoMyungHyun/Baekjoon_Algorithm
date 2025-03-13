@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Algorithm.c">
+    <ClCompile Include="최소,최대.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자의 합.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
