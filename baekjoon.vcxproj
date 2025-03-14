@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="숫자의 합.c" />
     <ClCompile Include="최소,최대.c" />
+    <ClCompile Include="평균.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
