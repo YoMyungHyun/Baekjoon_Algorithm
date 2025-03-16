@@ -24,5 +24,8 @@
     <ClCompile Include="평균.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Algorithm.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

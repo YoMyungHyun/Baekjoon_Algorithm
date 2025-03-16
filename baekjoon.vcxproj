@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algorithm.c" />
     <ClCompile Include="숫자의 합.c" />
     <ClCompile Include="최소,최대.c" />
     <ClCompile Include="평균.c" />
