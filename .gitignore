@@ -19,3 +19,7 @@
 # 특정 폴더 무시
 x64/
 Debug/
+
+# Visual Studio 프로젝트 파일 무시
+*.vcxproj
+*.vcxproj.filters
