@@ -130,6 +130,7 @@
     <ClCompile Include="Algorithm.c" />
     <ClCompile Include="꼬마 정민.c" />
     <ClCompile Include="숫자의 합.c" />
+    <ClCompile Include="오븐 시계.c" />
     <ClCompile Include="최소,최대.c" />
     <ClCompile Include="평균.c" />
   </ItemGroup>
